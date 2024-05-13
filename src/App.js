@@ -1,7 +1,9 @@
-function App() {
+import PostList from "./components/PostList";
+
+function App() {  
   return (
     <div>
-      Hello
+      <PostList />
     </div>
   );
 }
